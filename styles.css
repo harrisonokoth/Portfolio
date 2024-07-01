@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: skyblue;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightgreen; /* Change hover color as desired */
+}
+
+section {
+    padding: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #333;
+}
+
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1em;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.skill {
+    margin: 1em 0;
+}
+
+.progress-bar {
+    background: #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 0.5em;
+}
+
+.progress {
+    height: 100%;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    line-height: 20px;
+    color: white;
+    border-radius: 25px;
+}
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+}
